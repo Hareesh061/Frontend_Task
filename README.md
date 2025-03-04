@@ -13,6 +13,7 @@ Created Features:
 
 Note: 
 To find a quiz form, navigate (manually) to the home page. (Ex: localhost:3000/home)
+Please run in your local machine for better understanding of the code.
 
 
 Features Pics:
@@ -31,5 +32,7 @@ Features Pics:
 
 
 **Created as much as possible in given time**
+
+
 
 **Keep Learning**
