@@ -1,0 +1,39 @@
+
+.login-container {
+    background: linear-gradient(to right, #94d3f3, #f2f4f4);
+  }
+  
+  .login-card {
+    background: rgba(244, 241, 241, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    width: 350px;
+    box-shadow: 0px 8px 20px rgba(238, 221, 234, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .login-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.4);
+  }
+  
+
+  .btn-primary {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    border: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-primary:hover {
+    background: linear-gradient(135deg, #0056b3, #00408d);
+  }
+
+ 
+  .text-primary {
+    color: #00aaff !important;
+  }
+  
+ 
+#t::placeholder{
+color: black;
+}

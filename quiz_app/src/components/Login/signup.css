@@ -1,0 +1,51 @@
+
+.signup-container {
+    background: linear-gradient(to right, #232526, #414345);
+  }
+  
+  .signup-card {
+    background: rgba(238, 238, 244, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    width: 380px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .signup-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.4);
+  }
+  
+  .form-control {
+    border: none;
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+  }
+  
+  .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .form-control:focus {
+    background: rgba(255, 255, 255, 0.4);
+    color: white;
+  }
+  
+  .btn-primary {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    border: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-primary:hover {
+    background: linear-gradient(135deg, #0056b3, #00408d);
+  }
+  
+  .text-muted {
+    color: rgba(255, 255, 255, 0.7) !important;
+  }
+  .text-primary {
+    color: #00aaff !important;
+  }
+  
